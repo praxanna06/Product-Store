@@ -10,8 +10,8 @@ function App() {
   return (
     <Box minH={"100vh"} bg={useColorModeValue("gray.100", "gray.900")}>
       <BubbleChat
-            chatflowid="60c4f029-c394-4a23-84e9-400579950580"
-            apiHost="https://flowiseai-p5t6.onrender.com"
+            chatflowid="139197a5-0c60-4014-892e-58b422bd4e08"
+            apiHost="https://cloud.flowiseai.com"
         />
       <Navbar />
       <Routes>
