@@ -10,7 +10,7 @@ function App() {
   return (
     <Box minH={"100vh"} bg={useColorModeValue("gray.100", "gray.900")}>
       <BubbleChat
-            chatflowid="139197a5-0c60-4014-892e-58b422bd4e08"
+            chatflowid="52915b66-239d-4335-93a1-719b774bed66"
             apiHost="https://cloud.flowiseai.com"
         />
       <Navbar />
