@@ -227,7 +227,7 @@ const ProductCard = ({ product }) => {
               </Button>
               {sentimentResult && (
                 <Box bg="gray.500" p={4} rounded="md">
-                  <Text><strong>Overall Sentiment Score:</strong> {sentimentResult.score}/10</Text>
+                  <Text><strong>Overall Rating:</strong> {sentimentResult.score}/10</Text>
                   <Text><strong>Summary:</strong> {sentimentResult.summary}</Text>
                 </Box>
               )}

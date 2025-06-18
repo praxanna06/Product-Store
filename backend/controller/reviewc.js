@@ -32,7 +32,7 @@ export const getSentiment = async (req, res) => {
     const allText = reviews.map((r) => r.text).join("\n");
 
     const response = await axios.post(
-      "https://cloud.flowiseai.com/api/v1/prediction/00284454-9903-4b35-8728-67fcbce8b7f9",
+      "https://flow.spaceaiapp.com/api/v1/prediction/754abff4-dee1-42f3-941c-1237876680b1",
       {
         question: `Give an overall sentiment score out of 10 and a 2-line summary for the following reviews (do not mention phrases like 'the first review says'): \n${allText}`
       },
